@@ -194,12 +194,12 @@ function mediamdfn() {
       moreliul.append(morelicrt);
       let morefcursul = document.createElement("ul");
       morefcursul.classList =
-        "morefcursul md:hidden md:w-[180px] md:flex-col md:flex-nowrap md:justify-center md:items-start md:bg-stone-100 md:absolute md:top-[53px] md:left-0 z-[1000]";
+        "morefcursul md:hidden md:w-[180px] md:flex-col md:flex-nowrap md:justify-center md:items-start md:bg-stone-100 md:absolute md:top-[53px] md:left-0 z-[100000]";
       morelicrt.append(morefcursul);
 
       let mainmenumoremd = mainmenumdhide.map((elem) => {
         return `
-    <li class="md:w-full md:hover:bg-stone-200 z-100000">
+    <li class="md:w-full md:hover:bg-stone-200">
       <a
         href="${elem.link}"
         class="block w-full p-[18px] no-underline text-black font-microsoft text-[15px] md:w-full md:text-[13px] md:hover:underline lg:hidden"
