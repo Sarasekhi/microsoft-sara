@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: microsoft;
+  src: url("../fonts/SegoeUI.eot");
+  src: url("../fonts/SegoeUI.ttf");
+  src: url("../fonts/SegoeUI.woff");
+  src: url("../fonts/SegoeUI.woff2");
+}
+

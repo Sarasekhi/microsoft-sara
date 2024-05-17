@@ -1,0 +1,14 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./*.{html,js}",
+            "./**/*.{html,js}"],
+  theme: {
+    extend: {
+      fontFamily: {
+        microsoft: "microsoft",
+      },
+    },
+  },
+  plugins: [],
+}
+
